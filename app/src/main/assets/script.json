@@ -1,0 +1,40 @@
+{
+  "select western dresses,find some western dresses,western dresses please,buy western dresses": {
+    "qus": "casual wears or party wears",
+    "e": false,
+    "stage": 1,
+    "options": ["casual", "casual wears","casual wear", "party wears","party wear", "party"]
+  },
+  "_stage_1": {
+    "stage":3,
+    "ans": "Here you go.",
+    "url": "http://www.amazon.in/s/ref=sr_nr_p_36_0?fst=as%3Aoff&rh=n%3A1571271031%2Cn%3A%211571272031%2Cn%3A1953602031%2Cn%3A11400137031%2Ck%3Avneck+tshirt+for+women+solid%2Cp_n_size_five_browse-vebin%3A1975367031%2Cp_n_material_browse%3A1974776031%2Cp_36%3A4595084031&bbn=11400137031&keywords=vneck+tshirt+for+women+solid&ie=UTF8&qid=1491379090&rnid=4595083031"
+  },
+  "select ethnic wears,find some ethnic wears,ethnic wears please,buy ethnic wears": {
+    "qus": "dresses or sarees",
+    "e": false,
+    "stage": 2,
+    "options": ["dresses", "sarees"]
+  },
+  "_stage_2": {
+    "stage":3,
+    "ans": "Here you go.",
+    "url": "http://www.amazon.com/s/ref=mas_dl?_encoding=UTF8&field-keywords={1}&url=search-alias=fashion-womens-clothing",
+    "e": false
+  },
+  "order first one, order second one,order something good":{
+    "if":[3],
+    "ans":"good choice, I will place order for you. Thank you.",
+    "e": true
+  },
+  "thank you,thanks":{
+    "ans":"You welcome."
+  },
+  "bye,see you":{
+    "ans":"See you, bye",
+    "e":true
+  },
+  "_stage_0":{
+    "qus": "I don't know, what do you mean."
+  }
+}
